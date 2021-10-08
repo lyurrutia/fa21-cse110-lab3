@@ -8,6 +8,6 @@ assignees: lyurrutia
 ---
 
 Implement [Feature] in CSS Stylesheet.
-[] Instance
-[] Instance
-[] Instance
+- [ ] Instance
+- [ ] Instance
+- [ ] Instance
