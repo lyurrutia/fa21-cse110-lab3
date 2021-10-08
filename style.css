@@ -10,6 +10,16 @@
     color: lightpink;
 }
 
+section h2 {
+    font-family: Comfortaa;
+}
+
+.pageTitle {
+    text-align: center;
+    font-family: Comfortaa;
+    margin: 8%;
+}
+
 #title-box > h1 {
     background-color:rgb(255, 255, 60);
     color:blueviolet;
