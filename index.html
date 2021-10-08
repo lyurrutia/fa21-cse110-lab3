@@ -8,8 +8,8 @@
     </head>
     <body>
 	    <header>
-			<div>2001 Studio</div>
-			<nav>
+			<h2>2001 Studio</h2>
+			<nav class="headerNav">
 				<ol>
 					<li><a href="#details">Meeting Details</a></li>
 					<li><a href="#roll">Roll Call</a></li>
@@ -21,9 +21,11 @@
 			</nav>
 	    </header>
 		<main>
-			<h1>Meeting Minutes</h1>
-			<h2>09/30/3331</h2>
-			<h3>CSE 110</h3>
+			<div id="title-box">
+				<h1>Meeting Minutes</h1>
+				<h2>09/30/3331</h2>
+				<h3>CSE 110</h3>
+			</div>
 
 			<section id="details">
 				<h2>Meeting Details</h2> 
@@ -36,9 +38,9 @@
 
 			<section id="roll">
 				<h2>Roll Call</h2>
-				<details>
+				<details id="present">
 					<summary><b>Present:</b></summary>
-					<ul>
+					<ul id="present-list">
 						<li>Casey</li>
 						<li>Stacy</li>
 						<li>JC</li>
@@ -46,7 +48,7 @@
 				</details>
 
 				<div><b>Absent:</b></div>
-				<ul>
+				<ul id="present-list">
 					<li><em>Phillip</em></li>
 				</ul>
 			</section>
