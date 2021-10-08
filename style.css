@@ -1,6 +1,13 @@
 * {
     background-color:#1d1a1a;
+}
+
+.textClass {
     color:white;
+}
+
+.textClass a {
+    color: lightpink;
 }
 
 #title-box > h1 {
