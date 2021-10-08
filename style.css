@@ -2,6 +2,7 @@
     background-color:#1d1a1a;
 }
 
+
 .textClass {
     color:white;
 }
@@ -66,4 +67,21 @@ p {
     margin-top:    5px;
     margin-bottom: 5px;
 
+}
+
+fieldset, fieldset * {
+    background-color: darkslateblue;
+}
+
+fieldset:hover, fieldset:hover * {
+    background-color:darkslategray;
+}
+
+fieldset:active, fieldset:active * {
+    background-color:darkmagenta;
+}
+
+
+[type=text] {
+    background-color: white !important;
 }
