@@ -1,0 +1,14 @@
+* {
+    background-color:#1d1a1a;
+}
+
+h1 {
+    background-color:rgb(230, 230, 60);
+    color:blueviolet;
+    max-width:max-content;
+}
+
+p {
+    /* color:rgb(170, 213, 228) */
+    color:hsl(200,55,78)
+}
