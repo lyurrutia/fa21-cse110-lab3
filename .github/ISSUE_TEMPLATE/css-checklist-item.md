@@ -1,6 +1,6 @@
 ---
 name: CSS Checklist Item
-about: Implement Instance of [FEATURE]
+about: Implement Instance of some CSS feature.
 title: CSS [Feature] Checklist Item
 labels: CSS
 assignees: lyurrutia
