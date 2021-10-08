@@ -1,1 +1,1 @@
-https://lyurrutia.github.io/Lab2/
+https://lyurrutia.github.io/fa21-cse110-lab3/
