@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
 		<meta charset="UTF-8">
-		<title>TEAM NAME Meeting Minutes</title>
+		<title>2001 Studio Meeting Minutes</title>
 		<link rel="icon" href="./media/favicon.ico">
     </head>
     <body>
 	    <header>
-			<div>TEAM NAME</div>
+			<div>2001 Studio</div>
 			<nav>
 				<ol>
 					<li><a href="#details">Meeting Details</a></li>
@@ -76,21 +76,39 @@
 				<p>Etiam aliquam vel est at iaculis. Praesent elementum, justo in placerat laoreet, sem neque ultrices purus, ut rutrum erat nibh.</p>
 				<form>
 					<fieldset>
-						<label for="sample">I'm running out of time:</label><br>
-						<input type="text" id="sample">
+						<label for="username">Pick a display name:</label><br>
+						<input type="text" id="username">
 					</fieldset>
 
 					<fieldset>
 						<legend>Pick a top tier:</legend>
 
-						<input type="radio" id="chun" name="tier">
-						<label for="chun">Chun-Li</label><br>
+						<input type="radio" id="sol" name="tier">
+						<label for="sol">Sol Badguy</label><br>
 
-						<input type="radio" id="makoto" name="tier">
-						<label for="makoto">Makoto</label><br>
+						<input type="radio" id="nago" name="tier">
+						<label for="nago">Nagoriyuki</label><br>
 
-						<input type="radio" id="akuma" name="tier">
-						<label for="akuma">Akuma</label><br>
+						<input type="radio" id="pot" name="tier">
+						<label for="pot">Potemkin</label><br>
+					</fieldset>
+
+					<fieldset>
+						<label for="whichButton">Round Start! What do you do?</label>
+						<input list="roundStartOptions" id="whichButton" name="whichButton" />
+
+						<datalist id="roundStartOptions">
+							<option value="blockLow">
+							<option value="walkBack">
+							<option value="jumpIn">
+							<option value="dashIn">
+							<option value="punch">
+							<option value="kick">
+							<option value="slash">
+							<option value="dust">
+							<option value="heavySlash">
+							<option value="DP">
+						</datalist>
 					</fieldset>
 				</form>
 			</section>
