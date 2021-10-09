@@ -90,6 +90,24 @@ fieldset:active, fieldset:active * {
     }
 }
 
+.forColumns{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+li ~ li {
+    color: deepskyblue;
+}
+
+p.textClass {
+    font-size: 12pt;
+}
+
+p + p {
+    padding-right: 15px;
+    padding-left:  15px;
+}
+
 @media screen and (max-width: 700px) {
     video {
         min-width: 100px;
