@@ -81,6 +81,15 @@ fieldset:active, fieldset:active * {
     background-color:darkmagenta;
 }
 
+video {
+    display: inline;
+}
+
+img {
+    display: block;
+    width: 80%;
+}
+
 
 [type=text] {
     background-color: white !important;
